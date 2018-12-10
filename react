@@ -1,0 +1,143 @@
+
+--- React Basics ---
+Introducting React
+Add React to a Project - python -m SimpleHTTPServer  -  localhost:8000
+Create a React Element
+Render an Element -
+Understanding JSX
+Embed Javascript Expressions in JSX
+What is a Component
+Create a Component
+Use a Componnent with JSX
+Components as Arrow Functions
+Create the Player Component
+Composing Components
+React Developer Tools
+Setting and using props
+use props to create reusable components
+iterating and rendering with map()
+use keys to keep track of elements
+what is state
+create a component as a class
+create a stateful component
+handling events
+updating state
+bind event handlers to components
+update state based on previous state
+creating the application state
+remove items from state
+
+--- React Components ---
+understanding react components
+setting up with create react app
+separating function components into modules
+unidirectional data flow
+lifting state up
+communicating between compnents
+update state based on a players index
+building the statistics component
+controlled components
+adding items to state
+update the players state based on previous state
+designing the stopwatch
+stopwatch state
+update the stopwatch state with componentDidMount()
+resetting the stopwatch
+prevent memory leaks with componentWillUnmount()
+Optimize performance with pureComponent
+Destructing props
+refs and the dom
+validate props with proptypes
+static proptypes and default props
+the react challenge
+
+--- Using Create React App ---
+What is create react app
+installing and using create react app
+customizing your project
+next steps with create react app
+
+--- react context api ---
+what is the context API
+how context works
+create context
+provide and consume state
+the provider and consumer solution
+provide and consume actions
+provide remaining actions to child components
+refactor the provider
+refactor the consumers
+
+--- react router 4 basics ---
+expand your react skills
+what is routing
+introducing the project
+installing react router and declaring routes
+inline rendering with <Route>
+navigating between routes
+styling active links
+routing challenge
+- solution
+redirecting a route
+using the math object
+displaying 404 error routes using switch
+passing date to compnents via routes
+using URL peramamters
+navigating routes programmatically
+
+--- whats new in react 16 ---
+introducting react 16
+take control of erros with compnentDidCatch()
+catching errors with error boundaries
+new return types
+render children into other dom nodes with portals
+returning null from setstate
+
+--- data fetching in react ---
+fetching data with fetch API
+fetching data with axios
+displaying the data
+building a search feature
+displaying the search results
+
+--- react by example ---
+overview of what we'll build
+setting up the project
+mapping the component structure
+initialize the state
+building the guestlist component
+writing a handler to confirm guests
+connecting the confirm guest handler
+toggling edit state for guests
+changing guest name in state
+filtering guests
+adding guests to the list
+removing name from the list
+pending name submissin feature
+creating the counter
+refactor app components
+- solution
+filter bug
+- solution
+
+--- building applications with react and redux ---
+what is redux?
+why redux
+redux initial setup
+redux inital setup - index.js
+developing your component hierarchy
+building the stopwatch logic
+building the state and counter pure component
+building the addplayerform logical component
+building the player and header pure components
+cleaning up the scoreboard container component
+intro to action types
+intro to reducers
+actions and action creators
+the road traveled thus far
+creating the redux store
+connecting the scoreboard container to redux
+updating the player, counter and addplayerform components
+adding redux devtools
+challenge the player detail component
+-solution
